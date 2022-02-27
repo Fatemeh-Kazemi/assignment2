@@ -1,0 +1,46 @@
+body{
+    direction: rtl;
+}
+table{
+    margin: 0 auto;
+}
+input, textarea, button, select{
+    display: block;
+    margin: 10px auto;
+}
+textarea{
+    margin: 10px;
+}
+button{
+    padding: 2px 5px;
+}
+input[type="radio"],input[type="checkbox"]{
+    display: inline-block;
+}
+.fruit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table tr td:first-child{
+    text-align: right;
+    padding-right: 5px;
+}
+table tr td:nth-child(2){
+    text-align: center;
+}
+.apple1{
+    color: green;
+}
+.apple0{
+    color: red;
+}
+.fa-carrot{
+    color: orange;
+}
+.fa-lemon{
+    color: rgb(219, 219, 12);
+}
+.fa-pepper-hot{
+    color: rgb(167, 20, 20);
+}
